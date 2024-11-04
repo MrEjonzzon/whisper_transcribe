@@ -1,5 +1,7 @@
 # Setup and Use Whisper for Audio Transcription
 
+Uses https://github.com/openai/whisper
+
 ## Prerequisites
 Ensure Python (version 3.8 to 3.12) is installed on your system.
 
@@ -19,3 +21,8 @@ Ensure Python (version 3.8 to 3.12) is installed on your system.
 ## Usage
 - To transcribe all MP3 files in the directory, run `python batch_transcribe.py`.
 - To transcribe a single audio file, use: `python -m whisper transcribe "filename.mp3" --model large`
+
+## Troubleshooting
+Please refer to Whisper's documentation
+
+This guide has been also used: https://wandb.ai/wandb_fc/gentle-intros/reports/OpenAI-Whisper-How-to-Transcribe-Your-Audio-to-Text-for-Free-with-SRTs-VTTs---VmlldzozNDczNTI0
